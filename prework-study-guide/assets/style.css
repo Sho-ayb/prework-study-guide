@@ -1,0 +1,55 @@
+* {
+  /* wildcard will apply the styles to all of the document */
+  margin: 0;
+  padding: 0;
+}
+
+/* styling the header and footer */
+
+header,
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #d5f5e3;
+  color: black;
+}
+
+/* styling the h1 and h2 elements */
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/* styling the img element */
+
+img {
+  display: block; /* ensures that the element will start on a new line */
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* styling the the unordered list element */
+
+ul {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+/* styling the paragraph elements */
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* styling the each topic using a class selector */
+
+.card {
+  width: 90%;
+  margin: 40px auto;
+  border: 5px solid #1d8348;
+  box-shadow: 5px 10px #82e0aa;
+}
