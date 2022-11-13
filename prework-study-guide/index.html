@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -16,10 +16,8 @@
       />
 
       <h2>✨ Open the developers console, to see what's happening ✨</h2>
-
     </header>
     <main>
-
       <section class="card" id="html-section">
         <h2>HTML</h2>
 
@@ -37,16 +35,42 @@
         <h2>CSS</h2>
 
         <li>Enter your CSS notes here</li>
-        <li>Using the wildcard * we can set the margin and padding on the whole of the HTML document.</li>
-        <li>Margin indicates how much space we may want on the outside of an element.</li>
-        <li>Padding indicates how much space we may want on the inside of an element.</li>
-        <li>We need to style within the style.css file and link it to the HTML- inside of index.html via the link attribute.</li>
+        <li>
+          Using the wildcard * we can set the margin and padding on the whole of
+          the HTML document.
+        </li>
+        <li>
+          Margin indicates how much space we may want on the outside of an
+          element.
+        </li>
+        <li>
+          Padding indicates how much space we may want on the inside of an
+          element.
+        </li>
+        <li>
+          We need to style within the style.css file and link it to the HTML-
+          inside of index.html via the link attribute.
+        </li>
         <li>We can style elements grouped together.</li>
-        <li>The display property with the value of block will cause the elements to be contained within its own space and will start on a new line.</li>
-        <li>When needing to style specific elements, we should use the class attribute and is declared beginning with a period.</li>
-        <li>We can change an elements color using a variety of ways: one way is to do so using a hex which can be found on this website <a href="https://htmlcolorcodes.com/">htmlcolorcodes.com</a></li>
-        <li>To learn more about CSS follow the link here: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Documentation on CSS</a></li>
-      
+        <li>
+          The display property with the value of block will cause the elements
+          to be contained within its own space and will start on a new line.
+        </li>
+        <li>
+          When needing to style specific elements, we should use the class
+          attribute and is declared beginning with a period.
+        </li>
+        <li>
+          We can change an elements color using a variety of ways: one way is to
+          do so using a hex which can be found on this website
+          <a href="https://htmlcolorcodes.com/">htmlcolorcodes.com</a>
+        </li>
+        <li>
+          To learn more about CSS follow the link here:
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            >MDN Web Documentation on CSS</a
+          >
+        </li>
       </section>
       <section class="card" id="git-section">
         <h2>GIT</h2>
@@ -59,41 +83,121 @@
         <li>To check your GIT status type git status</li>
         <li>To add all files to commit type git add -A</li>
         <li>To commit files type git commit -m "message goes here"</li>
-        <li>To push the project to GIT type git remote add origin <your url here></li>
-        <li>To finally push type git push -u origin main or master if branch is named master</li>
-        <li>To ignore node_modules folder paste this text in to your .gitignore file and GIT will automatically ignore committing the directory</li>
-        <li>When working within a team there is a different approach to push your repository</li>
-        <li>First we should always pull the latest repository from the remote repository from Github</li>
+        <li>
+          To push the project to GIT type git remote add origin "your url here"
+        </li>
+        <li>
+          To finally push type git push -u origin main or master if branch is
+          named master
+        </li>
+        <li>
+          To ignore node_modules folder paste this text in to your .gitignore
+          file and GIT will automatically ignore committing the directory
+        </li>
+        <li>
+          When working within a team there is a different approach to push your
+          repository
+        </li>
+        <li>
+          First we should always pull the latest repository from the remote
+          repository from Github
+        </li>
         <li>We can do the following commands first:</li>
         <li>git fetch origin main</li>
         <li>git pull origin main</li>
         <li>git commit -m "My worked on code"</li>
         <li>git push origin main</li>
-        <li>However typically we want a team member to verify our code for acceptance in to the main branch.</li>
+        <li>
+          However typically we want a team member to verify our code for
+          acceptance in to the main branch.
+        </li>
         <li>Thus; we need to do the following:</li>
-        <li>We should create a new branch by e.g git checkout -b feature/starter-code</li>
-        <li>We can then add all the files as usual by git add -A or git add .  < note the period</li>
-        <li>Once the files are staged i.e added for commit we can do the following command:</li>
+        <li>
+          We should create a new branch by e.g git checkout -b
+          feature/starter-code
+        </li>
+        <li>
+          We can then add all the files as usual by git add -A or git add . <
+          note the period
+        </li>
+        <li>
+          Once the files are staged i.e added for commit we can do the following
+          command:
+        </li>
         <li>git commit -m "add starter-code"</li>
-        <li>Remember before pushing these files, we should pull the latest from main repository</li>
+        <li>
+          Remember before pushing these files, we should pull the latest from
+          main repository
+        </li>
         <l>git pull origin main</l>
-        <l>Then push to the branch we just created with git push origin feature/starter-code </l>
-        <li>On the Github webpage click on the repository in question and select compare and pull request. And submit a pull request for a team member to accept the push.</li>
-        <li>Once it is accepted our feature/starter-code branch will merge and be deleted.</li>
+        <l
+          >Then push to the branch we just created with git push origin
+          feature/starter-code
+        </l>
+        <li>
+          On the Github webpage click on the repository in question and select
+          compare and pull request. And submit a pull request for a team member
+          to accept the push.
+        </li>
+        <li>
+          Once it is accepted our feature/starter-code branch will merge and be
+          deleted.
+        </li>
         <li>Some useful commands with Git on the command line</li>
-        <li>To check what username you are using type git config --global user.name</li>
-        <li>To check what email you are using type git config --global user.email</li>
-        <li>To check if you are authenticated correctly with Github type ssh -T git@github.com</li>
-        <li>To check if you have remote connection to a Github repository type git remote -v</li>
+        <li>
+          To check what username you are using type git config --global
+          user.name
+        </li>
+        <li>
+          To check what email you are using type git config --global user.email
+        </li>
+        <li>
+          To check if you are authenticated correctly with Github type ssh -T
+          git@github.com
+        </li>
+        <li>
+          To check if you have remote connection to a Github repository type git
+          remote -v
+        </li>
       </section>
       <section class="card" id="javascript-section">
         <h2>JAVASCRIPT</h2>
 
         <li>Enter your JAVASCRIPT notes here</li>
+        <li>A variable is a type of container to store data types.</li>
+        <li>
+          Control flow is a mechanism that allows for creating conditional
+          statements.
+        </li>
+        <li>
+          The if statement is a type of conditional statement that allows for
+          control flow based on the result of a truthy and falsy values.
+        </li>
+        <li>
+          Functions are essential building blocks in Javascript and allow for
+          returning of some result based on the execution of its body content.
+        </li>
+        <li>
+          Math is an object and contains a number of useful methods:
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math"
+            >MDN Documentation Math Object</a
+          >
+        </li>
+        <li>
+          As well as the script file, we can declare variables and functions in
+          the developer console.
+        </li>
+        <li>
+          An array is a type of Object in Javascript and can be used to store
+          multiple values of different data types.
+        </li>
+        <li>
+          We can loop through an array object using a for loop. This is because
+          a for loop takes an iterable value being a number data type and an
+          array is indexed beginning at index 0.
+        </li>
       </section>
-    </main>
-
-      <!-- Student code goes here -->
     </main>
 
     <footer>
@@ -103,6 +207,5 @@
     <!-- The reference to the Javascript file -->
 
     <script src="./assets/script.js"></script>
-
   </body>
 </html>
