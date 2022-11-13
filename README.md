@@ -2,13 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 The main aim of this project is to ensure that students are able to keep notes to reference back whilst partaking in the Trilogy Bootcamp for Front-End Web Development. As students go through the course, an individual webpage will provide a reference to thier own notes and also serve as part of learning Front-End Web Development.
 
 Students would have learnt how to construct a HTML document and link a CSS stylee sheet and Javascript file to it.
