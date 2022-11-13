@@ -27,7 +27,7 @@ To check the developers console, do the following: for mac users press Command+O
 
 Please see image below:
 
-![alt text](assets/images/prework-console-capture-1.jpg)
+![Screen capture of developer console](./assets/images/prework-console-capture-1.jpg)
 
 ## License
 
